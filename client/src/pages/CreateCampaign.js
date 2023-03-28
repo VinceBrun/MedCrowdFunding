@@ -102,7 +102,7 @@ const CreateCampaign = () => {
             placeholder="Place image URL of your campaign"
             inputType="url"
             value={form.patientImage}
-            handleChange={(e) => handleFormFieldChange('image', e)}
+            handleChange={(e) => handleFormFieldChange('patientImage', e)}
           />
 
           <div className="flex justify-center items-center mt-[40px]">
