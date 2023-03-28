@@ -68,7 +68,7 @@ const CreateCampaign = () => {
         </div>
 
           <FormField 
-            labelName="hospitalNoteByDoctor*"
+            labelName="hospitalNoteByDoctor *"
             placeholder="Recommend Patient for Campaign"
             isTextArea
             value={form.hospitalNoteByDoctor}
