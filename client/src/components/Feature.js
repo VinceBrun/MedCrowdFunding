@@ -6,7 +6,7 @@ const Feature = () => {
         <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
           <div>
             <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-              Brand new
+              We are glad to offer
             </p>
           </div>
           <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
@@ -33,13 +33,12 @@ const Feature = () => {
                   height="24"
                 />
               </svg>
-              <span className="relative">The</span>
+              <span className="relative">An</span>
             </span>{' '}
-            quick, brown fox jumps over a lazy dog
+            Amazing Opportunity For Campaigns.
           </h2>
           <p className="text-base text-gray-700 md:text-lg">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque rem aperiam, eaque ipsa quae.
+            Yes we can link you to people out there who are passionate about your situation and will offer maximally to ensuring you get back to your feet through financial donations.
           </p>
         </div>
         <div className="max-w-lg space-y-3 sm:mx-auto lg:max-w-xl">
@@ -60,7 +59,7 @@ const Feature = () => {
               </svg>
             </div>
             <span className="text-gray-800 transition-colors duration-200 group-hover:text-white">
-              Change the world by being yourself.
+              We really can be that Family you've not got.
             </span>
           </div>
           <div className="flex items-center p-2 transition-colors duration-200 border rounded shadow group hover:bg-deep-purple-accent-400 hover:border-deep-purple-accent-400">
@@ -80,7 +79,7 @@ const Feature = () => {
               </svg>
             </div>
             <span className="text-gray-800 transition-colors duration-200 group-hover:text-white">
-              Die with memories, not dreams.
+              Experience Love in Humanity.
             </span>
           </div>
           <div className="flex items-center p-2 transition-colors duration-200 border rounded shadow group hover:bg-deep-purple-accent-400 hover:border-deep-purple-accent-400">
@@ -100,7 +99,7 @@ const Feature = () => {
               </svg>
             </div>
             <span className="text-gray-800 transition-colors duration-200 group-hover:text-white">
-              What we think, we become.
+              Your wellness is a priority and finance is not a barrier.
             </span>
           </div>
           <div className="flex items-center p-2 transition-colors duration-200 border rounded shadow group hover:bg-deep-purple-accent-400 hover:border-deep-purple-accent-400">
@@ -120,7 +119,7 @@ const Feature = () => {
               </svg>
             </div>
             <span className="text-gray-800 transition-colors duration-200 group-hover:text-white">
-              Be so good they can't ignore you.
+              You have got only the choice to be back to your feet again.
             </span>
           </div>
           <div className="flex items-center p-2 transition-colors duration-200 border rounded shadow group hover:bg-deep-purple-accent-400 hover:border-deep-purple-accent-400">
@@ -140,7 +139,7 @@ const Feature = () => {
               </svg>
             </div>
             <span className="text-gray-800 transition-colors duration-200 group-hover:text-white">
-              Simplicity is the ultimate sophistication.
+              We care and we love.
             </span>
           </div>
           <div className="flex items-center p-2 transition-colors duration-200 border rounded shadow group hover:bg-deep-purple-accent-400 hover:border-deep-purple-accent-400">
@@ -160,7 +159,7 @@ const Feature = () => {
               </svg>
             </div>
             <span className="text-gray-800 transition-colors duration-200 group-hover:text-white">
-              Yesterday you said tomorrow. Just do it today.
+              We did go all out for your campaigns so get started.
             </span>
           </div>
         </div>

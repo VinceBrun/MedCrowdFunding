@@ -34,12 +34,10 @@ const Step = () => {
               </div>
               <div>
                 <p className="text-xl font-semibold sm:text-base">
-                  Read the recipe
+                  Create a Campaign
                 </p>
                 <p className="text-sm text-gray-700">
-                  All recipes are written using certain conventions, which define
-                  the characteristics of common ingredients. The rules vary from
-                  place to place.
+                  We encourage you go ahead and create a campaign that solves your medical financial problems, only be sure to get verified by your Doctor and get an image of your hospitalization.
                 </p>
               </div>
             </div>
@@ -73,11 +71,9 @@ const Step = () => {
                 </div>
               </div>
               <div>
-                <p className="text-xl font-semibold sm:text-base">Heart attack</p>
+                <p className="text-xl font-semibold sm:text-base">We Get Donators</p>
                 <p className="text-sm text-gray-700">
-                  A flower in my garden, a mystery in my panties. Heart attack
-                  never stopped old Big Bear. I didn't even know we were calling
-                  him Big Bear.
+                  After creating a campaign with us, we make this campaign live and accessible to potential donators who are driven by compassion and will donate handsomely toward your medical bills.
                 </p>
               </div>
             </div>
@@ -111,11 +107,9 @@ const Step = () => {
                 </div>
               </div>
               <div>
-                <p className="text-xl font-semibold sm:text-base">Never stop</p>
+                <p className="text-xl font-semibold sm:text-base">Withdraw your Donated Funds</p>
                 <p className="text-sm text-gray-700">
-                  The first mate and his Skipper too will do their very best to
-                  make the others comfortable in their tropic island nest. Michael
-                  Knight a young loner.
+                  Yeah!!!!! we've got you your desired funds for the campaign you created, go ahead and sort your bills, get 100% of the funds, connect your wallet and transfer the funds.
                 </p>
               </div>
             </div>

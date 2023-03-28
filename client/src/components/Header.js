@@ -1,4 +1,5 @@
 import React, {} from 'react';
+import { Link } from "react-router-dom";
 
 const Header = () => {
     return (
@@ -47,22 +48,21 @@ const Header = () => {
                       height="24"
                     />
                   </svg>
-                  <span className="relative">The</span>
+                  <span className="relative"></span>
                 </span>{' '}
-                quick, brown fox jumps over a lazy dog
+                Let's Get your Medical Bills Sorted For!
               </h2>
               <p className="text-base text-gray-700 md:text-lg">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque rem aperiam, eaque ipsa quae.
+                We are a people with passion for the suffering patient who's illment in not only the challenge but the inability to meet up with medical financial demands, eating deeper than the illment itself. We hope to get this fixed out of love and compassion for the dieing patient, who's death is as a result of medical negligence based on the patient's inability to afford medical bills.
               </p>
             </div>
             <div>
-              <a
-                href="/"
+              <Link
+                to="/create-campaign"
                 className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
               >
-                Get started
-              </a>
+                Let's Get started
+              </Link>
             </div>
           </div>
         </div>

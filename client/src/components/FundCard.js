@@ -3,7 +3,7 @@ import React from 'react';
 import { tagType, thirdweb } from '../assets';
 import { daysLeft } from '../utils';
 
-const FundCard = ({ owner, title, description, target, deadline, amountCollected, patientImage, handleClick }) => {
+const FundCard = ({ owner, patientImage,  title, description, target, deadline, amountCollected,  handleClick }) => {
   const remainingDays = daysLeft(deadline);
   
   return (
