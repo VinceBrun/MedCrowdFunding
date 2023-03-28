@@ -17,9 +17,9 @@ export const StateContextProvider = ({ children }) => {
     try {
       const data = await createCampaign([
         address, // patient
-        form.title, // patient campaign title
         form.patientImage, //patient confirmation image showing patient is admitted
         form.hospitalNoteByDoctor,//an image or written note by a license doctor confirming patients hospitalization
+        form.title, // patient campaign title
         form.description, // description
         form.target,
         new Date(form.deadline).getTime(), // deadline,
