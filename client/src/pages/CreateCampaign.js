@@ -12,14 +12,14 @@ const CreateCampaign = () => {
   const [isLoading, setIsLoading] = useState(false);
   const { createCampaign } = useStateContext();
   const [form, setForm] = useState({
-    name: '',
+    // name: '',
     title: '',
     patientImage: '',
     hospitalNoteByDoctor: '',
     description: '',
     target: '', 
     deadline: '',
-    image: ''
+    // image: ''
   });
 
   const handleFormFieldChange = (fieldName, e) => {
@@ -29,7 +29,7 @@ const CreateCampaign = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    checkIfImage(form.image, async (exists) => {
+    checkIfImage(form.patientImage, async (exists) => {
       if(exists) {
         setIsLoading(true)
         await createCampaign({ ...form, target: ethers.utils.parseUnits(form.target, 18)})
@@ -37,7 +37,7 @@ const CreateCampaign = () => {
         navigate('/');
       } else {
         alert('Provide valid image URL')
-        setForm({ ...form, image: '' });
+        setForm({ ...form, patientImage: '' });
       }
     })
   }
@@ -101,7 +101,7 @@ const CreateCampaign = () => {
             labelName="Campaign image *"
             placeholder="Place image URL of your campaign"
             inputType="url"
-            value={form.image}
+            value={form.patientImage}
             handleChange={(e) => handleFormFieldChange('image', e)}
           />
 
