@@ -12,10 +12,10 @@ const CreateCampaign = () => {
   const [isLoading, setIsLoading] = useState(false);
   const { createCampaign } = useStateContext();
   const [form, setForm] = useState({
-    // name: '',
-    title: '',
+    // name: '', 
     patientImage: '',
     hospitalNoteByDoctor: '',
+    title: '',
     description: '',
     target: '', 
     deadline: '',
