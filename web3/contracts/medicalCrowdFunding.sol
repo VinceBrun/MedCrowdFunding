@@ -30,7 +30,11 @@ contract CrowdFunding {
         return true;
     }
 
-    function createCampaign(address _patient, string memory _patientImage, string memory _hospitalNoteByDoctor, string memory _title, string memory _description, uint256 _target, uint256 _deadline) public returns (uint256) {
+    function createCampaign(
+        address _patient, string memory _patientImage, 
+        string memory _hospitalNoteByDoctor, string memory _title, 
+        string memory _description, uint256 _target, uint256 _deadline
+        ) public returns (uint256) {
         require(checkEligibility(_patientImage, _hospitalNoteByDoctor), "Patient is not eligible to create campaign");
         require(_deadline > block.timestamp, "The deadline should be a date in the future.");
 

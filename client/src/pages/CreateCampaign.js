@@ -67,7 +67,15 @@ const CreateCampaign = () => {
           />
         </div>
 
-        <FormField 
+          <FormField 
+            labelName="hospitalNoteByDoctor*"
+            placeholder="Recommend Patient for Campaign"
+            isTextArea
+            value={form.hospitalNoteByDoctor}
+            handleChange={(e) => handleFormFieldChange('hospitalNoteByDoctor', e)}
+          />
+
+          <FormField 
             labelName="Story behind your campaign*"
             placeholder="Write your story to catch the minds of donors"
             isTextArea
