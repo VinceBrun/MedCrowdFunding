@@ -59,16 +59,6 @@ const Navbar = () => {
                   Create Campaign
                 </Link>
               </li>
-              <li>
-                <Link
-                  to="/"
-                  aria-label="About us"
-                  title="About us"
-                  className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
-                >
-                  Withdraw Funds
-                </Link>
-              </li>
             </ul>
             <ul className="flex items-center hidden space-x-8 lg:flex">
               <li>

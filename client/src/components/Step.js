@@ -107,9 +107,9 @@ const Step = () => {
                 </div>
               </div>
               <div>
-                <p className="text-xl font-semibold sm:text-base">Withdraw your Donated Funds</p>
+                <p className="text-xl font-semibold sm:text-base">Campaign Ends</p>
                 <p className="text-sm text-gray-700">
-                  Yeah!!!!! we've got you your desired funds for the campaign you created, go ahead and sort your bills, get 100% of the funds, connect your wallet and transfer the funds.
+                  Your campaigns ends.
                 </p>
               </div>
             </div>
