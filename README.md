@@ -57,6 +57,10 @@ Kitwind.io.
 
 Thirdweb.com.
 
+React.js.
+
+Tailwind.css.
+
 
 # THANK YOU.
 
