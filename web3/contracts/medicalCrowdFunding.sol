@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.9;
 
-contract CrowdFunding {
+contract medicalCrowdFunding {
     // Define a struct to represent a campaign
     struct Campaign {
         address payable patient;            // Address of the patient who created the campaign
