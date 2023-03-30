@@ -11,15 +11,13 @@ const CreateCampaign = () => {
   const navigate = useNavigate();
   const [isLoading, setIsLoading] = useState(false);
   const { createCampaign } = useStateContext();
-  const [form, setForm] = useState({
-    // name: '', 
+  const [form, setForm] = useState({ 
     patientImage: '',
     hospitalNoteByDoctor: '',
     title: '',
     description: '',
     target: '', 
     deadline: '',
-    // image: ''
   });
 
   const handleFormFieldChange = (fieldName, e) => {
