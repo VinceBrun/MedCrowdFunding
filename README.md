@@ -6,23 +6,23 @@ FUND-ME is a decentralized application for a medical crowd funding programs that
 
 # NOTE: Use Goerli Network to test & url for patients campaign images.
 
-#Deploying Contracts
+# Deploying Contracts
 To deploy medicalCrowdFunding.sol contract, just run one of the following command:
 
 npm run deploy
 # or
 yarn deploy
 
-#Clone the repository
+# Clone the repository
 git clone https://github.com/VinceBrun/MedCrowdFunding.git
 
-#Install the dependencies
+# Install the dependencies
 npm install
 
-#Start the development server
+# Start the development server
 npm run start
 
-#INSIGHTS TO FUND-ME mediacalCrowdFunding SMART CONTRACT
+# INSIGHTS TO FUND-ME mediacalCrowdFunding SMART CONTRACT
 
 This is a Solidity smart contract that implements a medical crowdfunding platform. The contract allows patients to create campaigns to raise funds for medical treatment. The contract stores information about each campaign, including the patient's address, patient image, hospital note provided by the doctor, campaign title, campaign description, target amount to be raised, deadline, amount collected so far, and the addresses and donations of all the donors who have contributed to the campaign.
 
@@ -41,17 +41,23 @@ The contract uses the mapping data structure to store information about all camp
 The contract uses several Solidity features, such as structs, mappings, and modifiers, to implement the crowdfunding platform. The contract also uses the require function to check conditions before executing certain parts of the code. The require function is used to ensure that the patient is eligible to create a campaign and that the deadline is in the future before creating a new campaign. The require function is also used to ensure that the donated amount is sent successfully to the patient's address before updating the amount collected so far.
 
 
-#medicalCrowdFunding Contract was deploy using THIRDWEB with the link and contract address below:
+# medicalCrowdFunding Contract was deploy using THIRDWEB with the link and contract address below:
 https://thirdweb.com/goerli/0x199f6162721845ceAf79815d812055f11b254284
 
-#FUND-ME INTERFACE
+# FUND-ME INTERFACE
+
 The project was built with react.js.
 
-#REFERENCES
+
+# REFERENCES
+
 JavaScript Mastery.
+
 Kitwind.io.
+
 Thirdweb.com.
 
 
-#THANK YOU.
+# THANK YOU.
+
 So help me God.
