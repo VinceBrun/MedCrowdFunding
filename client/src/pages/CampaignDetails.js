@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom';
-import { ethers } from 'ethers';
 
 import { useStateContext } from '../context';
 import { CountBox, CustomButton, Loader } from '../components';
@@ -91,7 +90,7 @@ const CampaignDetails = () => {
                     <p className="font-epilogue font-normal text-[16px] text-[#808191] leading-[26px] break-ll">{item.donation}</p>
                   </div>
                 )) : (
-                  <p className="font-epilogue font-normal text-[16px] text-[#808191] leading-[26px] text-justify">No donators yet. Be the first one!</p>
+                  <p className="font-epilogue font-normal text-[16px] text-[#808191] leading-[26px] text-justify">No donation yet. Be the first!</p>
                 )}
               </div>
           </div>
@@ -115,8 +114,8 @@ const CampaignDetails = () => {
               />
 
               <div className="my-[20px] p-4 bg-[#13131a] rounded-[10px]">
-                <h4 className="font-epilogue font-semibold text-[14px] leading-[22px] text-white">Back it because you believe in it.</h4>
-                <p className="mt-[20px] font-epilogue font-normal leading-[22px] text-[#808191]">Support the project for no reward, just because it speaks to you.</p>
+                <h4 className="font-epilogue font-semibold text-[14px] leading-[22px] text-white">Back it for love and compassion sake.</h4>
+                <p className="mt-[20px] font-epilogue font-normal leading-[22px] text-[#808191]">No reward, just because it touches you.</p>
               </div>
 
               <CustomButton 
