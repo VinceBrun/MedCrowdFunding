@@ -7,10 +7,18 @@ import { loader } from '../assets';
 const DisplayCampaigns = ({ title, isLoading, campaigns }) => {
   const navigate = useNavigate();
 
-  const handleNavigate = (campaign) => {
-    navigate(`/campaign-details/${campaign.title}`, { state: campaign })
+  /* Encode string to slug */
+  function toSlug(title) {
+    return title.toLowerCase()
+        .replace(/[^\w ]+/g, '')
+        .replace(/ +/g, '-');
   }
   
+  const handleNavigate = (campaign) => {
+    const url = toSlug(campaign.title);
+    navigate(`/campaign-details/${url}`, { state: campaign })
+  }
+
   return (
     <div>
       <h1 className="font-epilogue font-semibold text-[18px] text-white text-left">{title} ({campaigns.length})</h1>

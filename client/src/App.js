@@ -11,6 +11,7 @@ import Footer from './components/Footer.js';
 import CreateCampaign from './pages/CreateCampaign';
 import Home from './pages/Home';
 import { DisplayCampaigns } from "./components";
+import CampaignDetails from "./pages/CampaignDetails";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/create-campaign" element={<CreateCampaign />} />
           <Route path="/home" element={<Home />} />
           <Route path="/campaigns" element={<DisplayCampaigns />} />
+          <Route path="/campaign-details/:title" element={<CampaignDetails />} />
         </Routes>  
       </div>
 
@@ -38,7 +40,7 @@ function App() {
       
       <div>
         <Footer />
-      </div>
+      </div>  
     </div>
   );
 }
